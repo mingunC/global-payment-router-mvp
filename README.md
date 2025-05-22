@@ -28,5 +28,6 @@ This Spring Boot application simulates a cross-border payment system, processing
 
 2. **Clone the Repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone global-payment-router-mvp
+
    cd global-payment-router-mvp
