@@ -4,6 +4,11 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../../인프런/global-payment-router-mvp" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
