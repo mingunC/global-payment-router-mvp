@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="929d86e0-cb10-4a2f-95ea-9467109ad848" name="Changes" comment="git init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paymentrouter/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paymentrouter/model/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paymentrouter/repostiory/DynamoDBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paymentrouter/PaymentRouterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/paymentrouter/DemoApplicationTests.java" afterDir="false" />
+    <list default="true" id="929d86e0-cb10-4a2f-95ea-9467109ad848" name="Changes" comment="Add PaymentRequest model for payment processing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paymentrouter/service/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paymentrouter/service/PaymentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747880196737</updated>
-      <workItem from="1747880197759" duration="4328000" />
+      <workItem from="1747880197759" duration="5383000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <option name="closed" value="true" />
@@ -134,7 +128,31 @@
       <option name="project" value="LOCAL" />
       <updated>1747885499665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add settings.gradle build.gradle">
+      <option name="closed" value="true" />
+      <created>1747885966442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747885966442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Configure H2 database and local DynamoDB">
+      <option name="closed" value="true" />
+      <created>1747886086753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747886086753</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add PaymentRequest model for payment processing">
+      <option name="closed" value="true" />
+      <created>1747886212283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747886212283</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +160,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git init" />
-    <option name="LAST_COMMIT_MESSAGE" value="git init" />
+    <MESSAGE value="add settings.gradle build.gradle" />
+    <MESSAGE value="Configure H2 database and local DynamoDB" />
+    <MESSAGE value="Add PaymentRequest model for payment processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PaymentRequest model for payment processing" />
   </component>
 </project>
